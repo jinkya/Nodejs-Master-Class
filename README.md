@@ -11,7 +11,7 @@ Prerequisites
 
 Setting Up your workstation
 > text editor(simple editor like sublime but IDE), Access to terminal(admin previlages), Node v8(prefer LTS)
-![Node|v](http://blog.builtinnode.com/uploads/covers/8E329214-96BA-11E6-807F-99024887B159.png)
+![Node|v](https://github.com/nodejs/Release/blob/master/schedule.png)
 
 Quizz
 > loops in node js - Libuv
