@@ -1,3 +1,4 @@
+
 # Node js Master Class
 
 ## Section 1
@@ -6,8 +7,9 @@ Course Overview
 
 Prerequisites
 > familarity with js
+> You Don't Know Javascript
+> [ramification floating point precision](https://stackoverflow.com/questions/11695618/dealing-with-float-precision-in-javascript)
 > learn by hard way without using npm packages
-[ramification floating point precision](https://stackoverflow.com/questions/11695618/dealing-with-float-precision-in-javascript)
 
 Setting Up your workstation
 > text editor(simple editor like sublime but IDE), Access to terminal(admin previlages), Node v8(prefer LTS)
@@ -24,19 +26,19 @@ Quizz
 
 ## Section 2
 The story of Node js
-> A video started circulating internetRyan Dahl San fransisco php meetup @ new way of running js on server(Fall 2011)
+> A video started circulating internet. Ryan Dahl San fransisco php meetup @ new way of running js on server(Fall 2011)
 > Offered 2 years earlier - 2009 - standing ovation but hadenet been quite welcoming
 > Ruby on rails was on hot wagon
 > In Jan 2010 Isaac Schutler created npm package manager.
 > GoogleTechTalks - Node.js: JavaScript on the Server - skeptical into by presentor
 > Node js and Mongo readily started to work with JSON. (rise of JSON with MEAN stack)
 > Joyent - official provider for the project. Microsoft collaboration created windows node js
-> Rift and io js And Node js Foundation
+> Rift with io js And Node js Foundation
 > Many developers have all but abandoned the Node.js API, in favour of third party libraries, frameworks and NPM packages.
 
 Whats is V8, exactly?
 > V8 = The chrome v8 javascript engine.
-> high level language to level language - compilers( source code to executable/ machinecode/bute code), transpilers(source code into source code of another type) and interpretor(source code directly execution, compile and optimizing and executing on the go)
+> High level language to level language - compilers( source code to executable/ machine code/byte code), transpilers(source code of one type into source code of another type) and interpreter(source code directly execution, compile and optimizing and executing on the go)
 > SpiderMonkey( first js engine ) by Mozilla and V8 by Chrome are both interchangebaly used by Mongo
 > Web browsers embed js engines in order to execute js.
 > Node js embeds js engine v8 to execute js
@@ -47,7 +49,7 @@ Whats node js exactly?
 > C++ app embedding v8.
 > Nodejs present itself as two application - 1. Script processor 2. REPL(Read Eval Print Loop)
 > node index.js 				-- call the script procesor
-  --- pass file name to node js | first initialize event loop then process initial pat of js
+  --- pass file name to node js | first initialize event loop then process initial part of js
   --- event loop = infinitly running loop. Nodes way of todo list
 > The event loop continually checking if theres any new for nodejs to do
 > Blocking - occupying the resources of thread at the expense of other todos
@@ -79,6 +81,45 @@ Node.js vs Browser
 ## Section 4
 
 ## Section 5
+Section Overview
+
+Adding a CLI 
+User interactions via cosole.  
+CLI with an event-driven design pattern.
+.
+Handling Events 
+Entire application startup with the specific cmd components and then booting cmd library for reading and writing to the console. 
+
+.
+Command 1: Exit 
+Kill the application  
+.
+Command 2: Man/Help  
+help support 
+.
+Command 3: Stats
+current operating system metadata   
+.
+Command 4: List Users 
+sys users 
+.
+Command 5: More User Info 
+more user info -{userId}
+.
+Command 6: List Checks 
+all the checks created by the users
+list checks --up 
+list checks --down 
+.
+Command 7: More check info  
+more check info --{checkId}
+.
+Command 8:List Logs 
+.
+Command 9: More log info 
+more log info --{logId}
+
+Section Review
 
 ## Section 6
 
